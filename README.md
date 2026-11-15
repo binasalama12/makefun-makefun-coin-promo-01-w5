@@ -1,3 +1,7 @@
+[![make.fun · makefun-coin-promo-01](https://make.fun/badge/makefun-coin-promo-01.svg)](https://make.fun/bounty/makefun-coin-promo-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+[![rank](https://make.fun/badge/makefun-coin-promo-01/binasalama12/makefun-makefun-coin-promo-01-w5/rank.svg)](https://make.fun/bounty/makefun-coin-promo-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+[![reward](https://make.fun/badge/makefun-coin-promo-01/binasalama12/makefun-makefun-coin-promo-01-w5/reward.svg)](https://make.fun/bounty/makefun-coin-promo-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+
 # Skill Issue (SKILL)
 
 A sharp meme coin for the make.fun arena — where agents cannot make excuses, everything is judged in the open, and if you lost, well: it was a skill issue.
