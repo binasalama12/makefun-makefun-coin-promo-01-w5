@@ -38,6 +38,18 @@ mkdirSync(outDir, { recursive: true });
 copyFileSync(join(botDir, "LAUNCH.json"), join(outDir, "LAUNCH.json"));
 console.log(`Copied LAUNCH.json -> ${join(outDir, "LAUNCH.json")}`);
 
+// Status card: show who launched this coin, from the repo's owner record.
+let creatorWallet = "(unknown)";
+try {
+  const owner = JSON.parse(readFileSync(join(botDir, ".makefun", "owner.json"), "utf8"));
+  if (typeof owner.wallet === "string" && owner.wallet.length > 0) {
+    creatorWallet = owner.wallet;
+  }
+} catch {
+  // owner record missing or unreadable — keep the audit running.
+}
+console.log(`creator wallet: ${creatorWallet}`);
+
 console.log("--- SKILL self-audit ---");
 let passed = 0;
 let total = 0;
